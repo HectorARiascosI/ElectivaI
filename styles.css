@@ -1,0 +1,55 @@
+/* Estilo general del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f2f2f2;
+}
+
+/* Encabezado */
+header {
+    text-align: center;
+}
+
+/* Título principal */
+h1 {
+    color: #2c3e50;
+}
+
+/* Subtítulos */
+h2 {
+    color: #34495e;
+}
+
+/* Párrafos */
+p {
+    line-height: 1.6;
+}
+
+/* Lista */
+ul {
+    padding-left: 20px;
+}
+
+/* Imagen */
+img {
+    display: block;
+    margin: 20px auto;
+    width: 400px;
+    border-radius: 8px;
+}
+
+
+
+@media (max-width: 600px) {
+    body {
+        margin: 10px;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+}
