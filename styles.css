@@ -38,6 +38,27 @@ img {
     border-radius: 8px;
 }
 
+/* modo oscuro */
+.dark-mode {
+    background-color: #1e1e1e;
+    color: white;
+}
+
+.dark-mode h1,
+.dark-mode h2 {
+    color: #f1c40f;
+}
+
+/*Animacion simple*/
+#mensaje {
+    transition: opacity 0.5s ease;
+    opacity: 0;
+}
+
+#mensaje.mostrar {
+    opacity: 1;
+}
+
 
 
 @media (max-width: 600px) {
